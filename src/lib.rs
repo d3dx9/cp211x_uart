@@ -149,7 +149,7 @@ impl HidUart {
             write_timeout: Duration::from_millis(1000),
             rx_buffer: RxBuffer::new(),
         };
-        instance.enable()?;
+        //instance.enable()?;
         Ok(instance)
     }
 
